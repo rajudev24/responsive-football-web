@@ -322,7 +322,7 @@ header{
 
 /* Responsive For Tablet Devices */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 688) and (max-width: 992px) {
     .navbar{
         display: flex;
         justify-content: space-around;
