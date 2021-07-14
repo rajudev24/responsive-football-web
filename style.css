@@ -259,18 +259,17 @@ header{
         height: 220px;
     }
     .players-container{
-        margin: 40px;
+        margin: 20px;
     }
     .players{
         grid-template-columns: repeat(1, 1fr); 
-        
     }
     .section-title{
         align-items: center;
     }
     .football-news{
         grid-template-columns: repeat(1, 1fr);
-        margin: 40px;
+        margin: 20px;
     }
     .news{
         flex-direction: column;
@@ -282,14 +281,14 @@ header{
        display: none;
     }
     .our-gellery{
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
    
     .stadium img{
         
         width: 320px;
         height: 220px;
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .gallery{
         grid-template-columns: repeat(1, 1fr);
@@ -305,8 +304,7 @@ header{
     
     .highlights-container{
         grid-template-columns: repeat(1, 1fr);
-        
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .highlights-container h2{
         font-size: 30px;
