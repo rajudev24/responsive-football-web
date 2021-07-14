@@ -239,27 +239,11 @@ header{
         width: 100%;
     }
     .navbar{
-        /* flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin: 0; */
-        
         display: none;
-        
     }
-    /* .navbar ul{
-        flex-direction: column;
-    }
-    .navbar ul li {
-        margin-top: 20px;
-    }
-     */
     .hero{
         flex-direction: column;
-        /* margin: 20px; */
         align-items: center;
-        /* margin-left: 18px; */
-        
     }
     .hero .hero-title{
         font-size: 20px;
@@ -283,9 +267,6 @@ header{
     }
     .section-title{
         align-items: center;
-    }
-    .news-container{
-       /* width: 100%; */
     }
     .football-news{
         grid-template-columns: repeat(1, 1fr);
@@ -352,7 +333,7 @@ header{
         margin: 0;
     }
     .hero{
-        flex-direction: column;
+        margin-top: 70px;
     }
     .hero .banner img{
         width: 329px;
@@ -368,9 +349,7 @@ header{
     .section-title{
         align-items: center;
     }
-    .news-container{
-       /* width: 100%; */
-    }
+    
     .football-news{
         grid-template-columns: repeat(1, 1fr);
         margin: 40px;
@@ -381,9 +360,22 @@ header{
         height: 400px;
         margin-left: 25px;
     }
+    .gallery{
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .gallery-img{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
     .highlights-container{
         display: flex;
         flex-direction: column;
+       
+        align-items: center;
     }
     .highlights-img img{
         width: 500px;
