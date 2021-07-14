@@ -188,6 +188,10 @@ header{
 .gallery-img img{
     width: 250px;
     height: 220px;
+    transition: transform 2s ease;
+}
+.gallery-img img:hover{
+    transform: scale(.9);
 }
 
 /* Highlights Style Start  */
@@ -197,7 +201,7 @@ header{
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
     margin-left: 180px;
-    margin-right: 155px;
+    margin-right: 115px;
     margin-top: 50px;
 }
 .highlights-container h2{
@@ -299,15 +303,12 @@ header{
     .our-gellery{
         margin-left: 20px;
     }
-    .stadium{
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-    }
+   
     .stadium img{
         
         width: 320px;
         height: 220px;
+        margin-left: 25px;
     }
     .gallery{
         grid-template-columns: repeat(1, 1fr);
@@ -334,6 +335,59 @@ header{
     .highlights-img img{
         width: 300px;
         height: 250px;
+        margin-top: 20px;
+    }
+}
+
+/* Responsive For Tablet Devices */
+
+@media only screen and (max-width: 992px) {
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .hero .hero-title{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero .banner img{
+        width: 329px;
+        height: 220px;
+    }
+    .players-container{
+        margin: 40px;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr); 
+        
+    }
+    .section-title{
+        align-items: center;
+    }
+    .news-container{
+       /* width: 100%; */
+    }
+    .football-news{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 40px;
+    }
+    .stadium img{
+        
+        width: 700px;
+        height: 400px;
+        margin-left: 25px;
+    }
+    .highlights-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .highlights-img img{
+        width: 500px;
+        height: 400px;
         margin-top: 20px;
     }
 }
